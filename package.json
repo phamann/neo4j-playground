@@ -1,0 +1,32 @@
+{
+  "name": "neo4j-playground",
+  "version": "1.0.0",
+  "description": "Place to play with neo4j and node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phamann/neo4j-playground.git"
+  },
+  "author": "Patrick Hamann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phamann/neo4j-playground/issues"
+  },
+  "homepage": "https://github.com/phamann/neo4j-playground",
+  "devDependencies": {
+    "eslint": "^1.1.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "babel": "^5.8.21",
+    "express": "^3.18.3",
+    "seraph": "^0.13.2",
+    "seraph-model": "^0.7.2",
+    "seraph-resource": "^0.3.4"
+  }
+}
